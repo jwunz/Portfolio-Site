@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-site",
+  "version": "0.0.1",
+  "description": "Portfolio site for Wunz and Zeroes Web Development",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwunz/Portfolio-Site.git"
+  },
+  "author": "Joseph Wunz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwunz/Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/jwunz/Portfolio-Site#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
