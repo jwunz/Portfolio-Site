@@ -19,6 +19,7 @@
   "homepage": "https://wunzandzeroes.com",
   "dependencies": {
     "express": "^4.16.4",
+    "webpack": "^4.30.0",
     "gh-pages": "^2.0.1"
   }
 }
