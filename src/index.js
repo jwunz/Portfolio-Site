@@ -1,8 +1,8 @@
-const express = require('express');
+import express, { static } from 'express';
 const app = express();
 const http = require('http').Server(app);
 
-app.use(express.static('public'));
+app.use(static('public'));
 
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/public/html/index.html');
